@@ -8,7 +8,7 @@
 ----
 ### Example Session
 
-> rebar co && erl -pz ebin -s etsgive
+> rebar3 compile && rebar3 shell
 
     Eshell V5.9.2  (abort with ^G)
     1> MGR(<0.38.0>) -> SRV(<0.37.0>) getting TableId: 16400
